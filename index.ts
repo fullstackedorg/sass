@@ -8,6 +8,10 @@ export async function sassBuilder(params: {
         resolvedDir: string;
     }[];
 }) {
+    if (params.resolved.length == 0) {
+        return [];
+    }
+
     const entry = path.join(
         params.resolved.at(0).resolvedDir,
         params.resolved.at(0).path
