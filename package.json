@@ -6,7 +6,7 @@
         "build": "esbuild --outfile=index.js index.ts"
     },
     "dependencies": {
-        "sass": "^1.105.1"
+        "sass": "^1.107.1"
     },
     "type": "module",
     "devDependencies": {
